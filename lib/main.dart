@@ -56,7 +56,7 @@ class MyApp extends StatelessWidget {
                     color: Colors.teal,
                   ),
                   title: Text(
-                    '+91 8890879707',
+                    '+91-8890879707',
                     style: TextStyle(
                       color: Colors.teal,
                       fontFamily: 'Source Sans Pro',
@@ -67,7 +67,8 @@ class MyApp extends StatelessWidget {
                 ),
               ),
               const Card(
-                  margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
+                  margin:
+                      EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
                   child: ListTile(
                     leading: Icon(
                       Icons.email,
@@ -83,8 +84,7 @@ class MyApp extends StatelessWidget {
                         fontSize: 20.0,
                       ),
                     ),
-                  )
-              ),
+                  )),
             ],
           ),
         ),
@@ -92,4 +92,3 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
